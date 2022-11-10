@@ -1,0 +1,175 @@
+:root{
+    --blanco:#ffffff;
+    --negro:#000000;
+    --naranja:#cf540c;
+    --marron:#993000;
+    --azul:#02e1ff;
+    --amarillo:#ffc400;
+    --carne:#fff6bf;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--negro);
+    font-family: 'Dancing Script', cursive;
+}
+
+.navegacion-principal{
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+}
+
+.navegacion-principal a{
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 10px;
+}
+
+.navegacion-principal a:hover{
+    text-decoration: none;
+    color: var(--negro);
+    background-color: var(--blanco);
+}
+
+@media (min-width: 768px) {
+    .navegacion-principal{
+       flex-direction: row;
+       justify-content: space-around;
+    }
+}
+
+body{
+    background-image: url(/Fotos/portfolio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: var(--blanco);
+}
+
+.formulario{
+    background-color: var(--carne);
+    padding: 2rem;
+    border-radius: 1rem;
+    
+
+
+}
+
+.formulario fieldset{
+    border: none;
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--negro);
+}
+
+.campo label{
+    display: block;
+    color: var(--negro);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+}
+
+.informacion{
+    color: var(--negro);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.encabezado{
+    color: var(--negro);
+    text-align: center;
+}
+
+.inf-sobre-mi{
+    color: var(--negro);
+}
+.inf-sobre-mi2{
+    color: var(--negro);
+    text-align: center;
+}
+
+.redes-sociales{
+    color: var(--negro);
+    text-align: center;
+}
+
+.redes-sociales2{
+    color: var(--negro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fondo{
+    border-radius: 50%;
+    background-color: var(--carne);
+    width: 125px;
+    height: 125px;
+}
+
+.h2{
+    color: var(--negro);
+    text-align: center;
+}
+
+.imagen222{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+
+.tabla{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+main .diseño th,td{
+    
+    margin-top: auto;
+    border: 0,25px solid var(--blanco);
+    text-align: center;
+    padding: 5px 5px;
+}
+
+main .diseño th{
+    background-color: darkorchid;
+    color: var(--blanco);
+}
+
+tr:nth-child(even){
+    background-color: darkgray;
+}
+
+.imagen-proyecto img{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 530px;
+
+}
+
