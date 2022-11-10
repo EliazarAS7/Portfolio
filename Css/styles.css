@@ -20,6 +20,8 @@
     display: flex;
     justify-content: column;
     align-items: center;
+    background-color: var(--carne);
+    border-radius: 1rem;
 }
 
 .navegacion-principal a{
@@ -33,7 +35,6 @@
 .navegacion-principal a:hover{
     text-decoration: none;
     color: var(--negro);
-    background-color: var(--blanco);
 }
 
 @media (min-width: 768px) {
@@ -51,12 +52,19 @@ body{
     color: var(--blanco);
 }
 
+@media (min-width:768px) {
+    .formulario{
+        height: 675px;
+        width: 500px;
+        margin: 0 auto;
+    }
+ }
+
 .formulario{
     background-color: var(--carne);
-    padding: 2rem;
+    padding: 0.5rem;
     border-radius: 1rem;
-    
-
+    padding-right: 1px;
 
 }
 
@@ -80,7 +88,7 @@ body{
 }
 
 .input-text{
-    width: 100%;
+    width: 90%;
     border: none;
     padding: 1.5rem;
     border-radius: 1rem;
@@ -170,6 +178,26 @@ tr:nth-child(even){
     justify-content: center;
     width: 800px;
     height: 530px;
+
+}
+
+h3{
+    color: var(--negro);
+    
+}
+
+.boton{
+    color: var(--negro);
+    background-color: var(--carne);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    width: 50%;
+    text-align: center;
 
 }
 
