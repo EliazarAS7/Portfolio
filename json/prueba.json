@@ -1,0 +1,22 @@
+{
+  "Name": "Mis Proyectos",
+  "Town": "Las Palmas de Gran Canaria",
+  "active": true,
+  "activities": [
+    {
+      "name": "Animation Project",
+      "image": "../fotos/cristiano.png",
+      "description": "Estos son algunos de mis proyectos realizados"
+    },
+    {
+      "name": "Order-Summary",
+      "image": "../fotos/ordersummary.png",
+      "description": "Estos son algunos de mis proyectos realizados"
+    },
+    {
+      "name": "3 column card Project",
+      "image": "../fotos/cars.png",
+      "description": "Estos son algunos de mis proyectos realizados"
+    }
+  ]
+}

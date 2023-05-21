@@ -1,0 +1,87 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: bisque;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+  
+    }
+    body {
+      width: 800px;
+      margin: 0 auto;
+    }
+    
+    h1, h2 {
+      font-family: 'Dancing Script', cursive;
+    }
+    
+    /* header styles */
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+    
+    header p {
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    /* section styles */
+    
+    section article {
+      width: 90%;
+      height: 350px;
+      float: left;
+      border: 1px solid white;
+      border-radius: 10px;
+      background-color: white;
+      margin: 50px 0 50px 80px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 75px 200px 75px;
+      background-color: black;
+      
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+    }
+    
+    section p {
+      margin: 5px 0;
+      grid-column-start: 2;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      margin-left: 70px;
+      margin-top: 30px;
+      word-spacing: 5px;
+      white-space: pre-line;
+      padding-right: 70px;
+      font-weight: bold;
+      color: white;
+      
+    }
+    
+    section ul {
+      margin-top: 0;
+    }
+    
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      text-align: center;
+      color: white;
+    }
+    h3{
+      grid-column-start: 4;
+      grid-row-start: 3;
+      color: white;
+    }
+    /* images styles */
+    img{
+      max-width: 200px;
+      height: 200px;
+      grid-column-start: 1;
+      grid-row-start: 2;
+      margin-left: 2rem;
+      border-radius: 50%;
+    }
+  
